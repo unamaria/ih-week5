@@ -8,7 +8,10 @@
 <h1>jQuery exercise</h1>
 <button>Get phrase</button>
 <p></p>
-<input type="text" placeholder="Add a phrase">
+<form>
+	<input type="text" placeholder="Add a phrase">
+	<input type="submit" value="Add this awesome phrase">
+</form>
 
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
@@ -21,16 +24,16 @@ $(document).on('ready', function() {
 	'Don\'t tell anything to anyone',
 	'Lock the door',
 	'Set tota la vida'
-	];
+	]; // global var, bad practice?
 
 	$('button').on('click', function() {
-
 		var randomNum = Math.floor(Math.random() * phrases.length);
 		$('p').text(phrases[randomNum]);
 	});
 
-	$('input').on('change', function() {
-		phrases.push($('input').val());		
+	$('form').on('submit', function(event) {
+		event.preventDefault();
+		phrases.push($('input').val());
 	});
 
 });
