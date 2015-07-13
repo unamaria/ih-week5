@@ -8,25 +8,29 @@
 <h1>jQuery exercise</h1>
 <button>Get phrase</button>
 <p></p>
+<input type="text" placeholder="Add a phrase">
 
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
 
 $(document).on('ready', function() {
+	var phrases = [
+	'Begin anywhere',
+	'Tanmateix',
+	'Quan va despertar, dinosaures',
+	'Don\'t tell anything to anyone',
+	'Lock the door',
+	'Set tota la vida'
+	];
 
 	$('button').on('click', function() {
 
-		var phrases = [
-		'Begin anywhere',
-		'Tanmateix',
-		'Quan va despertar, dinosaures',
-		'Don\'t tell anything to anyone',
-		'Lock the door',
-		'Set tota la vida'
-		];
-
 		var randomNum = Math.floor(Math.random() * phrases.length);
 		$('p').text(phrases[randomNum]);
+	});
+
+	$('input').on('change', function() {
+		phrases.push($('input').val());		
 	});
 
 });
