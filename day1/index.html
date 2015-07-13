@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery exercise</title>
+</head>
+<body>
+<h1>jQuery exercise</h1>
+<p></p>
+
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+
+$(document).on('ready', function() {
+
+	var phrases = [
+	'Begin anywhere',
+	'Tanmateix',
+	'Quan va despertar, dinosaures',
+	'Don\'t tell anything to anyone'
+	];
+
+	var randomNum = Math.floor(Math.random() * phrases.length);
+	$('p').text(phrases[randomNum]);
+
+});
+
+</script>
+</body>
+</html>
