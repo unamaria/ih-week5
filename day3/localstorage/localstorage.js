@@ -11,10 +11,11 @@ $('#js-locations-register').on('click', function(event) {
 
 			var latitude  = position.coords.latitude;
     	var longitude = position.coords.longitude;
+    	var time = position.timestamp;
 
     	var currentLocation = {
     		location: latitude + ',' + longitude,
-    		timestamp: new Date().getTime()
+    		timestamp: time
     	}
 
 			locations.push(currentLocation);
