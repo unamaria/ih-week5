@@ -3,6 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>jQuery exercise</title>
+	<style>
+	.hide {
+		display: none;
+	}
+	</style>
 </head>
 <body>
 <h1>jQuery exercise</h1>
@@ -12,6 +17,7 @@
 	<input type="text" placeholder="Add a phrase">
 	<input type="submit" value="Add this awesome phrase">
 </form>
+<a href="javascript:;">Hide sentences</a>
 
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
@@ -25,6 +31,10 @@ $(document).on('ready', function() {
 	'Lock the door',
 	'Set tota la vida'
 	]; // global var, bad practice?
+	
+	phrases.forEach(function(phrase) {
+		$('a').after(`<p>${phrase}</p>`);
+	});
 
 	$('button').on('click', function() {
 		var randomNum = Math.floor(Math.random() * phrases.length);
@@ -32,8 +42,12 @@ $(document).on('ready', function() {
 	});
 
 	$('form').on('submit', function(event) {
-		event.preventDefault();
+		event.preventDefault(); //submit reloads page!
 		phrases.push($('input').val());
+	});
+
+	$('a').on('click', function() {
+		$('p').toggleClass("hide");
 	});
 
 });
