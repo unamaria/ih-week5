@@ -1,0 +1,1701 @@
+
+
+Started GET "/" for ::1 at 2015-07-16 10:08:49 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (8.7ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1h0idks" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1bphxuq" -
+Completed 200 OK in 17786ms (Views: 17702.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 10:09:07 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:09:08 +0200
+
+
+Started GET "/assets/application.self-77085ef618767857bc89fbcd1369c432f4e2423f7542cf572710dde5c1afb004.js?body=1" for ::1 at 2015-07-16 10:09:08 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:09:08 +0200
+
+
+Started GET "/api/pokemon/1" for ::1 at 2015-07-16 10:09:51 +0200
+Processing by PokemonRequestsController#forward as HTML
+  Parameters: {"uri"=>"pokemon/1"}
+Completed 200 OK in 638ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 10:11:14 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 10:12:57 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-xwu9dy" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-6db2gk" -
+Completed 200 OK in 862ms (Views: 861.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:12:58 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:12:58 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 10:12:58 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 10:12:58 +0200
+
+
+Started GET "/assets/application.self-1f8102c45d3c5071d5c16ce5b3aad93d3c38115e2a946fdb51dca56fdbdbd2d8.js?body=1" for ::1 at 2015-07-16 10:12:58 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 10:12:58 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 10:12:58 +0200
+
+
+Started GET "/" for ::1 at 2015-07-16 10:18:49 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-14i6eri" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1svyffe" -
+Completed 200 OK in 830ms (Views: 829.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-44e5da3b324838bde16dd3c2abb9e1766f233a20f0d9355118941befe019ede4.js?body=1" for ::1 at 2015-07-16 10:18:50 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:18:50 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 10:18:50 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 10:18:50 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:18:50 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 10:18:50 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 10:18:50 +0200
+
+
+Started GET "/api/pokemon/3" for ::1 at 2015-07-16 10:21:48 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/3"}
+Completed 200 OK in 596ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/3" for ::1 at 2015-07-16 10:26:57 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/3"}
+Completed 200 OK in 579ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 10:27:45 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1odduhf" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1c9ejg8" -
+Completed 200 OK in 848ms (Views: 846.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:27:46 +0200
+
+
+Started GET "/assets/application.self-e8deda38fbd0a4c3db56f5883413ba3ff5aa21c21c23a26319c759164750aa70.js?body=1" for ::1 at 2015-07-16 10:27:46 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 10:27:46 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:27:46 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 10:27:46 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 10:27:46 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 10:27:46 +0200
+
+
+Started GET "/api/pokemon/3" for ::1 at 2015-07-16 10:28:18 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/3"}
+Completed 200 OK in 624ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 10:30:12 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1wpa2eu" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1qrltum" -
+Completed 200 OK in 842ms (Views: 841.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:30:13 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 10:30:13 +0200
+
+
+Started GET "/assets/application.self-af66640d2d6fdf04ea57704d7f41f09a7ad482ab09d8122ae3d5e1278b47c8d7.js?body=1" for ::1 at 2015-07-16 10:30:13 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 10:30:13 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:30:13 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 10:30:13 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 10:30:13 +0200
+
+
+Started GET "/api/pokemon/3" for ::1 at 2015-07-16 10:30:23 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/3"}
+Completed 200 OK in 614ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 10:35:55 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1hk28mg" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-12r0jxc" -
+Completed 200 OK in 859ms (Views: 858.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:35:56 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 10:35:56 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:35:56 +0200
+
+
+Started GET "/assets/application.self-41de9c21d91cd4b8d6dac3372f2e72f34e4ce411a6c7a79363c3d1d0211f932e.js?body=1" for ::1 at 2015-07-16 10:35:56 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 10:35:56 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 10:35:56 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 10:35:56 +0200
+
+
+Started GET "/api/pokemon/30" for ::1 at 2015-07-16 10:36:38 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/30"}
+Completed 200 OK in 628ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 10:38:24 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-griksx" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-e8m4b6" -
+Completed 200 OK in 883ms (Views: 882.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 10:38:25 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 10:38:25 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:38:25 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 10:38:25 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:38:25 +0200
+
+
+Started GET "/assets/application.self-c61e54f25f8c6a3bff11adb755ac41c0d7850cdac3073247f70f2c41a241925e.js?body=1" for ::1 at 2015-07-16 10:38:25 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 10:38:25 +0200
+
+
+Started GET "/api/pokemon/5" for ::1 at 2015-07-16 10:38:49 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/5"}
+Completed 200 OK in 637ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 10:40:07 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-y04x1m" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-yeh2d4" -
+Completed 200 OK in 860ms (Views: 858.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:40:08 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 10:40:08 +0200
+
+
+Started GET "/assets/application.self-6b4b36d702caa8d9720ccd103c556721d90a287deca683f76622644ec3063486.js?body=1" for ::1 at 2015-07-16 10:40:08 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 10:40:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 10:40:08 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 10:40:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 10:40:08 +0200
+
+
+Started GET "/api/pokemon/15" for ::1 at 2015-07-16 10:40:39 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/15"}
+Completed 200 OK in 629ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 11:00:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-pgevlb" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1q0st79" -
+Completed 200 OK in 868ms (Views: 867.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:00:29 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 11:00:29 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 11:00:29 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:00:29 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 11:00:29 +0200
+
+
+Started GET "/assets/application.self-46fbbe75de3d8d2f5adcef3107fb9c3aee323cf727900c6af0d9df11382fbfd6.js?body=1" for ::1 at 2015-07-16 11:00:29 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 11:00:29 +0200
+
+
+Started GET "/" for ::1 at 2015-07-16 11:01:08 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:01:08 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 11:01:08 +0200
+
+
+Started GET "/assets/application.self-46fbbe75de3d8d2f5adcef3107fb9c3aee323cf727900c6af0d9df11382fbfd6.js?body=1" for ::1 at 2015-07-16 11:01:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 11:01:08 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:01:08 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 11:01:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 11:01:08 +0200
+
+
+Started GET "/" for ::1 at 2015-07-16 11:03:58 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1minzk0" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-j04mvs" -
+Completed 200 OK in 912ms (Views: 911.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7fff6852f9ed3db94c0b1bb409063b520f9041cf79684870ec996981559a77ba.js?body=1" for ::1 at 2015-07-16 11:03:59 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:03:59 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 11:03:59 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 11:03:59 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 11:03:59 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:03:59 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 11:03:59 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 11:03:59 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 635ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 11:10:02 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-gr5v5a" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1g84u3d" -
+Completed 200 OK in 903ms (Views: 902.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:10:03 +0200
+
+
+Started GET "/assets/application.self-dfa7d804e4aaad8f6b878c700146d84cd0f9171d133c7d4b158411d73f640fb9.js?body=1" for ::1 at 2015-07-16 11:10:03 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 11:10:03 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:10:03 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 11:10:03 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 11:10:03 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 11:10:03 +0200
+
+
+Started GET "/" for ::1 at 2015-07-16 11:14:09 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1ysjfj8" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1ou83ge" -
+Completed 200 OK in 899ms (Views: 898.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:14:10 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:14:10 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 11:14:10 +0200
+
+
+Started GET "/assets/application.self-280c81f011a20b92a116accfd3a119e5c0f6dfe156982e99eab56d4e3f8ed3d2.js?body=1" for ::1 at 2015-07-16 11:14:10 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 11:14:10 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 11:14:10 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 11:14:10 +0200
+
+
+Started GET "/" for ::1 at 2015-07-16 11:57:07 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-18ccvtk" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-18nbj52" -
+Completed 200 OK in 896ms (Views: 895.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:57:08 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:57:08 +0200
+
+
+Started GET "/assets/application.self-ab645eacddd5421e412d8a6e455c40311a0d5c2d48668a1058cd9a064d19e8a7.js?body=1" for ::1 at 2015-07-16 11:57:08 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 11:57:08 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 11:57:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 11:57:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 11:57:08 +0200
+
+
+Started GET "/" for ::1 at 2015-07-16 11:59:56 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:59:56 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 11:59:56 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 11:59:56 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 11:59:56 +0200
+
+
+Started GET "/assets/application.self-ab645eacddd5421e412d8a6e455c40311a0d5c2d48668a1058cd9a064d19e8a7.js?body=1" for ::1 at 2015-07-16 11:59:56 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 11:59:56 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 11:59:56 +0200
+
+
+Started GET "/" for ::1 at 2015-07-16 12:05:06 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1odvu5f" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-wd10vy" -
+Completed 200 OK in 914ms (Views: 913.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:05:07 +0200
+
+
+Started GET "/assets/application.self-17da0f8cd53b8dab1bfcc95ed66d1b57de06bc4b6994b21f5e299c33eb7a267d.js?body=1" for ::1 at 2015-07-16 12:05:07 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:05:07 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:05:07 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:05:07 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:05:07 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:05:07 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 12:05:07 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 612ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:44:22 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-182p5au" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-7nnly" -
+Completed 200 OK in 966ms (Views: 965.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:44:23 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:44:23 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:44:23 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:44:23 +0200
+
+
+Started GET "/assets/application.self-73633ca89cf07fad17e12f51eea37878105f3848ff9ec519e4d0984b4de5643f.js?body=1" for ::1 at 2015-07-16 12:44:23 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:44:23 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:44:23 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 12:44:23 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 601ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:44:46 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-qi1bxf" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-10wd1if" -
+Completed 200 OK in 945ms (Views: 944.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:44:47 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:44:47 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:44:47 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:44:47 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:44:47 +0200
+
+
+Started GET "/assets/application.self-a33f5dced3a234374c41b10a0841002da092907bcce45c97c22f2a292f6302af.js?body=1" for ::1 at 2015-07-16 12:44:47 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:44:47 +0200
+
+
+Started GET "/" for ::1 at 2015-07-16 12:45:05 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1n4wxrn" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-ljyzma" -
+Completed 200 OK in 955ms (Views: 954.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4e49d2c53c3afa99e2283493ee6c088477056eb7a30ae8dc1c5b22074ba3bbf7.js?body=1" for ::1 at 2015-07-16 12:45:06 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:45:06 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:45:06 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:45:06 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:45:06 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:45:06 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:45:06 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 12:45:06 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 904ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:45:08 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:45:08 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:45:08 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:45:08 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:45:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:45:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:45:08 +0200
+
+
+Started GET "/assets/application.self-4e49d2c53c3afa99e2283493ee6c088477056eb7a30ae8dc1c5b22074ba3bbf7.js?body=1" for ::1 at 2015-07-16 12:45:08 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 12:45:08 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 573ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:46:07 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-5rze0k" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1nng79f" -
+Completed 200 OK in 965ms (Views: 964.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:46:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:46:08 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:46:08 +0200
+
+
+Started GET "/assets/application.self-f93879c4c046a932d4fee76c06f9526df620f10f770b3609c4d121735c089aaf.js?body=1" for ::1 at 2015-07-16 12:46:08 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:46:08 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:46:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:46:08 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 12:46:08 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 758ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:46:25 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1x94so0" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-10hxolt" -
+Completed 200 OK in 946ms (Views: 945.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:46:26 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:46:26 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:46:26 +0200
+
+
+Started GET "/assets/application.self-5532a0abf028026501c439078bb644e0c50f8b54cca0b92c61d873e74bef6bd7.js?body=1" for ::1 at 2015-07-16 12:46:26 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:46:26 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:46:26 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:46:26 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 12:46:26 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 576ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:46:41 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-3rwuk9" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1nmjan7" -
+Completed 200 OK in 950ms (Views: 949.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:46:42 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:46:42 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:46:42 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:46:42 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:46:42 +0200
+
+
+Started GET "/assets/application.self-347ca667889dcc9ae4f3dc1eb67a3fc01a22c4fad2105faa4c5ea22f3d55844d.js?body=1" for ::1 at 2015-07-16 12:46:42 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:46:42 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 12:46:43 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 567ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:52:00 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-rle2n" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-gc6bf6" -
+Completed 200 OK in 956ms (Views: 954.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:52:01 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:52:01 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:52:01 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:52:01 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:52:01 +0200
+
+
+Started GET "/assets/application.self-c11c23325dfc69abe71c4270a84e0e479bf501455536381d1eceb76cd373258f.js?body=1" for ::1 at 2015-07-16 12:52:01 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:52:01 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 12:52:01 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 854ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/pokedex" for ::1 at 2015-07-16 12:52:02 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/pokedex"}
+Completed 200 OK in 525ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:52:33 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-ooje24" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1c6pnt3" -
+Completed 200 OK in 946ms (Views: 945.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:52:34 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:52:34 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:52:34 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:52:34 +0200
+
+
+Started GET "/assets/application.self-703fa62bb296a3bb723f9f2ca43a9e4621b55ddb0be327a9dc69d08599094c84.js?body=1" for ::1 at 2015-07-16 12:52:34 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:52:34 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:52:34 +0200
+
+
+Started GET "/api/pokemon/pokedex" for ::1 at 2015-07-16 12:52:34 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/pokedex"}
+Completed 200 OK in 490ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:53:12 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-gehvzf" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-6k79fu" -
+Completed 200 OK in 969ms (Views: 968.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:53:13 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:53:13 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:53:13 +0200
+
+
+Started GET "/assets/application.self-d36c77818e168df2f0335c08e2871adc0312f1e0ad172ab839fec2eea54c5a2a.js?body=1" for ::1 at 2015-07-16 12:53:13 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:53:13 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:53:13 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:53:13 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 12:53:13 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1675ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:54:50 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1j0t1lf" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1mdbt5" -
+Completed 200 OK in 958ms (Views: 957.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:54:51 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:54:51 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:54:51 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:54:51 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:54:51 +0200
+
+
+Started GET "/assets/application.self-5cd732653daaea0db20885d521d3f583fa03f7eba2cd94e3e87439e6a8c2414a.js?body=1" for ::1 at 2015-07-16 12:54:51 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:54:51 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 12:54:51 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1192ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:56:07 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-m2m4ga" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-k4kvku" -
+Completed 200 OK in 941ms (Views: 940.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:56:08 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:56:08 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:56:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:56:08 +0200
+
+
+Started GET "/assets/application.self-024b98d30b635ada3fe6fe6888c4bb43553d1b4bed8ad5c243c304dc88c8df9d.js?body=1" for ::1 at 2015-07-16 12:56:08 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:56:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:56:08 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 12:56:08 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1485ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:57:00 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1g180fq" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-149yqfy" -
+Completed 200 OK in 981ms (Views: 980.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:57:01 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:57:01 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:57:01 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:57:01 +0200
+
+
+Started GET "/assets/application.self-6a677298114a24d4f16447bd91d5d9a194723b523565e59ca48444d7b2719d16.js?body=1" for ::1 at 2015-07-16 12:57:01 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:57:01 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:57:01 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 12:57:01 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1570ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:57:43 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1a95vem" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-152hapn" -
+Completed 200 OK in 953ms (Views: 951.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:57:44 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:57:44 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:57:44 +0200
+
+
+Started GET "/assets/application.self-a58318d0a0c86aee934f0d5df26617937333fe30c1a0b992df5d1eb20c224d02.js?body=1" for ::1 at 2015-07-16 12:57:44 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:57:44 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:57:44 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:57:44 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 12:57:44 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1634ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 12:59:18 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-eu3mpt" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-oyidu4" -
+Completed 200 OK in 980ms (Views: 979.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:59:19 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 12:59:19 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 12:59:19 +0200
+
+
+Started GET "/assets/application.self-096ccd95a5250711d5309778a69fcb1a0b62b2970cdce3c298b2bdf50118b67b.js?body=1" for ::1 at 2015-07-16 12:59:19 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 12:59:19 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 12:59:19 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 12:59:19 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 12:59:19 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1184ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:04:45 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-y3xar5" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1yrlwe8" -
+Completed 200 OK in 965ms (Views: 964.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:04:46 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:04:46 +0200
+
+
+Started GET "/assets/application.self-d1a9e51a33ce507117912f6742a656aa47615ce058dd2fc226a97ecf96faddb0.js?body=1" for ::1 at 2015-07-16 13:04:46 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:04:46 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:04:46 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:04:46 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:04:46 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:04:46 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1439ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:06:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1dyazvq" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-16qs5z7" -
+Completed 200 OK in 972ms (Views: 971.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:06:29 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:06:29 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:06:29 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:06:29 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:06:29 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:06:29 +0200
+
+
+Started GET "/assets/application.self-0f6bbbf8fb26c8916369b6d7e8d0b5b87988b3d15f624e79a6b9640a4b242213.js?body=1" for ::1 at 2015-07-16 13:06:29 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:06:29 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1205ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:09:03 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-12feqof" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1on84ql" -
+Completed 200 OK in 937ms (Views: 935.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:09:04 +0200
+
+
+Started GET "/assets/application.self-92bdd46838b930102c7330e913f2b77cedecb420335fb8e51179bbfe8f332fa4.js?body=1" for ::1 at 2015-07-16 13:09:04 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:09:04 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:09:04 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:09:04 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:09:04 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:09:04 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:09:04 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1206ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:10:58 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1q4e9nb" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1hebn07" -
+Completed 200 OK in 949ms (Views: 947.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:10:59 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:10:59 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:10:59 +0200
+
+
+Started GET "/assets/application.self-d80d055892ac4234beba250ec2cf635539a77d35a9f8da614df7bdf49173ca3b.js?body=1" for ::1 at 2015-07-16 13:10:59 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:10:59 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:10:59 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:10:59 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:10:59 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1518ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:11:36 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1vwwmh0" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-21t3iq" -
+Completed 200 OK in 924ms (Views: 923.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:11:36 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:11:36 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:11:36 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:11:36 +0200
+
+
+Started GET "/assets/application.self-77f7b56b15efcd7ef2dc447143b7046b04db1ac32e8017fcc0a02cddee1d59d3.js?body=1" for ::1 at 2015-07-16 13:11:37 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:11:37 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:11:37 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:11:37 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1436ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:12:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:12:31 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:12:31 +0200
+
+
+Started GET "/assets/application.self-77f7b56b15efcd7ef2dc447143b7046b04db1ac32e8017fcc0a02cddee1d59d3.js?body=1" for ::1 at 2015-07-16 13:12:31 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:12:31 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:12:31 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:12:31 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:12:31 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:12:31 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 8031ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:12:39 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:12:39 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:12:39 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:12:39 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:12:39 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:12:39 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:12:39 +0200
+
+
+Started GET "/assets/application.self-77f7b56b15efcd7ef2dc447143b7046b04db1ac32e8017fcc0a02cddee1d59d3.js?body=1" for ::1 at 2015-07-16 13:12:39 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:12:39 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1503ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:13:14 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-8jbgsa" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1i2p3m3" -
+Completed 200 OK in 956ms (Views: 955.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:13:15 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:13:15 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:13:15 +0200
+
+
+Started GET "/assets/application.self-e9b38c35eb3b52683b88b2bf9f4c53646c114aa72868ff01c42d3bba57878a97.js?body=1" for ::1 at 2015-07-16 13:13:15 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:13:15 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:13:15 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:13:15 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:13:15 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1131ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:13:33 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1354znr" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1ygzvtx" -
+Completed 200 OK in 948ms (Views: 947.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:13:34 +0200
+
+
+Started GET "/assets/application.self-0c6289551389e0ea063c2e5294f7105c05e7f1fac5f6fe0fc5fe80dc48517adb.js?body=1" for ::1 at 2015-07-16 13:13:34 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:13:34 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:13:34 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:13:34 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:13:34 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:13:34 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:13:34 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1509ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:16:23 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-ssde52" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-juujc2" -
+Completed 200 OK in 943ms (Views: 942.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:16:24 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:16:24 +0200
+
+
+Started GET "/assets/application.self-020f6cbbdcac4eddc559d51c818cdd42954609e36339a96813180faa3c995038.js?body=1" for ::1 at 2015-07-16 13:16:24 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:16:24 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:16:24 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:16:24 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:16:24 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:16:24 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1205ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:18:55 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-fy16pm" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1uu4oiz" -
+Completed 200 OK in 961ms (Views: 960.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:18:56 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:18:56 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:18:56 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:18:56 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:18:56 +0200
+
+
+Started GET "/assets/application.self-4d7139f70dad77ea9dbaf1263231e6d3d3d0226ca537e5b1da286e1dbe213813.js?body=1" for ::1 at 2015-07-16 13:18:56 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:18:56 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:18:56 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1170ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:19:20 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-l23p7c" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-t9e6g3" -
+Completed 200 OK in 926ms (Views: 925.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:19:21 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:19:21 +0200
+
+
+Started GET "/assets/application.self-c0e4857f9eab367de275b009bebf509acce7e1d2b4022582d2443335d4cb3dfe.js?body=1" for ::1 at 2015-07-16 13:19:21 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:19:21 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:19:21 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:19:21 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:19:21 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:19:21 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1161ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:19:36 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-bzdq0z" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-7kkx8o" -
+Completed 200 OK in 948ms (Views: 947.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-442c22635608a2760fe2e8e9d09448b41a896d8edb8b08460ba0d2e316cab0d5.js?body=1" for ::1 at 2015-07-16 13:19:37 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:19:37 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:19:37 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:19:37 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:19:37 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:19:37 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:19:37 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:19:37 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1066ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 13:20:04 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-76n9ls" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-vyz856" -
+Completed 200 OK in 959ms (Views: 958.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:20:05 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 13:20:05 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 13:20:05 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 13:20:05 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 13:20:05 +0200
+
+
+Started GET "/assets/application.self-1c93cadb0649a9d8ffd1d1f677232b96525208c8e880a044dc36e80f6dfbabb6.js?body=1" for ::1 at 2015-07-16 13:20:05 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 13:20:05 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 13:20:05 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1492ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 14:21:54 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1x1y4uz" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-1e9h3df" -
+Completed 200 OK in 928ms (Views: 927.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 14:21:55 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 14:21:55 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 14:21:55 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 14:21:55 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 14:21:55 +0200
+
+
+Started GET "/assets/application.self-7cbbfbd39d13dbfd403e2cb83eb2db9246eee0b43ad80c65b72dcc2de74934d8.js?body=1" for ::1 at 2015-07-16 14:21:55 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 14:21:55 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 14:21:55 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1558ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 14:41:37 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-8irbb9" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-11mqthv" -
+Completed 200 OK in 941ms (Views: 940.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 14:41:38 +0200
+
+
+Started GET "/assets/application.self-d8cf2ef62a66a15a120d24cc1a2b39e3ec14e4c406aa27d5f218721a0b03f6c4.js?body=1" for ::1 at 2015-07-16 14:41:38 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 14:41:38 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 14:41:38 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 14:41:38 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 14:41:38 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 14:41:38 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 14:41:38 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1297ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 15:25:36 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-14p56kh" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-ez9qmx" -
+Completed 200 OK in 937ms (Views: 936.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 15:25:37 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 15:25:37 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 15:25:37 +0200
+
+
+Started GET "/assets/application.self-f9a4fad2e5b3814eb5145cbf7aed77ff7bb2b9dfc23beda1f25a5ff67d8fe741.js?body=1" for ::1 at 2015-07-16 15:25:37 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 15:25:37 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 15:25:37 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 15:25:37 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 15:25:37 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 3651ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 15:26:20 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-12txwrx" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-myrxqx" -
+Completed 200 OK in 930ms (Views: 929.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 15:26:21 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 15:26:21 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 15:26:21 +0200
+
+
+Started GET "/assets/application.self-7d33f4dc1abfc4f90c1044e4e2554273a3f99c6d6226f26603c62d2b40eabd0f.js?body=1" for ::1 at 2015-07-16 15:26:21 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 15:26:21 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 15:26:21 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 15:26:21 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 15:26:21 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 562ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 15:27:46 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-z7lyvr" -
+Browserify: /Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Desktop/pokemon/pokemon_api_skeleton/tmp/cache/browserify-rails/output20150716-3362-f4obeb" -
+Completed 200 OK in 944ms (Views: 943.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f3f37a47002ccf4e5031202dc1149a8851bc68c07fa519e48882affdb676bd6f.js?body=1" for ::1 at 2015-07-16 15:27:47 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 15:27:47 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 15:27:47 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 15:27:47 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 15:27:47 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 15:27:47 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 15:27:47 +0200
+
+
+Started GET "/api/pokemon/20" for ::1 at 2015-07-16 15:27:47 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/20"}
+Completed 200 OK in 682ms (Views: 0.1ms | ActiveRecord: 0.0ms)
