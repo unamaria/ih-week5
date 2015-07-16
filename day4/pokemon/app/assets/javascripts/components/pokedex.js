@@ -21,6 +21,18 @@ PokedexComponent.prototype.template = function (pokedex) {
 
 PokedexComponent.prototype.render = function () {
 	this.container.html(this.template(this.pokedex))
+
+	function createPokemonListener () {
+		$('.js-pokemon').on('click', function (event) {
+			event.preventDefault();
+			$('.pokedex-list').fadeOut();
+			router.renderPokemonComponent(this.getAttribute('data-id'));
+		})
+	}
+
+	createPokemonListener();
 }
+
+
 
 module.exports = PokedexComponent;

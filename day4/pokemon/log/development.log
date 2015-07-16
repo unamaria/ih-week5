@@ -2644,3 +2644,510 @@ Started GET "/api/pokedex" for ::1 at 2015-07-16 16:44:53 +0200
 Processing by PokemonRequestsController#forward as */*
   Parameters: {"uri"=>"pokedex"}
 Completed 200 OK in 1094ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 16:51:04 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-kagrz4" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1x7eb9a" -
+Completed 200 OK in 991ms (Views: 990.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 16:51:05 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 16:51:05 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 16:51:05 +0200
+
+
+Started GET "/assets/application.self-30bd7ea6688fd9a485f413176cc89b20d47ddaec3bafcddddfb39289a75cec11.js?body=1" for ::1 at 2015-07-16 16:51:05 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 16:51:05 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 16:51:05 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 16:51:05 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 16:51:05 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1199ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 16:51:37 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-sclj01" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1nmolnn" -
+Completed 200 OK in 978ms (Views: 977.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 16:51:38 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 16:51:38 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 16:51:38 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 16:51:38 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 16:51:38 +0200
+
+
+Started GET "/assets/application.self-9e2c228552f8051df2e2caa262ae5885d6bcbde70bc8ff6fdc4568d82de208e5.js?body=1" for ::1 at 2015-07-16 16:51:38 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 16:51:38 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 16:51:38 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1519ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 16:56:12 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-10azbzo" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1oc6alz" -
+Completed 200 OK in 973ms (Views: 971.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 16:56:13 +0200
+
+
+Started GET "/assets/application.self-e475f85d935eb090080cf8d3d7d25995887b33312db79bbf5242763413925ad5.js?body=1" for ::1 at 2015-07-16 16:56:13 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 16:56:13 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 16:56:13 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 16:56:14 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 16:56:14 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 16:56:14 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 16:56:14 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1262ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 16:57:35 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-mw77qm" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1dllp17" -
+Completed 200 OK in 1117ms (Views: 1116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 16:57:36 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 16:57:36 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 16:57:36 +0200
+
+
+Started GET "/assets/application.self-4ce7e693f1c73093679b083ba60edff78093401f7242b0d9b58bee34f8ee7f50.js?body=1" for ::1 at 2015-07-16 16:57:36 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 16:57:36 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 16:57:36 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 16:57:36 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 16:57:36 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1167ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:11:09 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1d2ttd2" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-pfvvaq" -
+Completed 200 OK in 979ms (Views: 978.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:11:10 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:11:10 +0200
+
+
+Started GET "/assets/application.self-5d7272181295916d400a22417f15ded6a57d6069fe746fd0507a0c4f6043c2c3.js?body=1" for ::1 at 2015-07-16 17:11:10 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:11:10 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:11:10 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:11:10 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:11:10 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:11:10 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1096ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:11:19 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:11:19 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:11:19 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:11:19 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:11:19 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:11:19 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:11:19 +0200
+
+
+Started GET "/assets/application.self-5d7272181295916d400a22417f15ded6a57d6069fe746fd0507a0c4f6043c2c3.js?body=1" for ::1 at 2015-07-16 17:11:19 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:11:19 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1114ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:12:34 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-3zzi2o" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-5dnotm" -
+Completed 200 OK in 959ms (Views: 958.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:12:35 +0200
+
+
+Started GET "/assets/application.self-f578efc5f771ca3e98f0656f07c2c41f6d6340f4c0c125c05f11c3192f771477.js?body=1" for ::1 at 2015-07-16 17:12:35 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:12:35 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:12:35 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:12:35 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:12:35 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:12:35 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:12:35 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1338ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:13:46 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-15qg93j" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1x8peta" -
+Completed 200 OK in 984ms (Views: 983.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:13:47 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:13:47 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:13:47 +0200
+
+
+Started GET "/assets/application.self-fa299eaedc2ff9dfd20676af41094995b8772fe0c714e56e338e36e9cb381a3e.js?body=1" for ::1 at 2015-07-16 17:13:47 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:13:47 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:13:47 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:13:47 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:13:47 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1207ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:14:10 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-sbxcsk" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-npf7p8" -
+Completed 200 OK in 957ms (Views: 956.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:14:11 +0200
+
+
+Started GET "/assets/application.self-94c902db5e91b7f5e6d3daa327850b268d24f15f7a40bc3c1419e5684aa4b54c.js?body=1" for ::1 at 2015-07-16 17:14:11 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:14:11 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:14:11 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:14:11 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:14:11 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:14:11 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:14:11 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1093ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:18:09 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1crb0l9" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1hqom70" -
+Completed 200 OK in 985ms (Views: 984.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a45c68abafa82c4fe2a71b158b3758d0d305e3119d412e7dd3b7b5457becc208.js?body=1" for ::1 at 2015-07-16 17:18:10 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:18:10 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:18:10 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:18:10 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:18:10 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:18:10 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:18:10 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:18:10 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1303ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/15" for ::1 at 2015-07-16 17:18:14 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/15"}
+Completed 200 OK in 561ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/21" for ::1 at 2015-07-16 17:18:17 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/21"}
+Completed 200 OK in 570ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/11" for ::1 at 2015-07-16 17:18:19 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/11"}
+Completed 200 OK in 578ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:18:36 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1sgysjn" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-odpjr6" -
+Completed 200 OK in 964ms (Views: 962.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:18:37 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:18:37 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:18:37 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:18:37 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:18:37 +0200
+
+
+Started GET "/assets/application.self-92cd65468af9534d03d1a44de7d66f1e33d9056a32b950e5bccb8c0d1c7a6811.js?body=1" for ::1 at 2015-07-16 17:18:37 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:18:37 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:18:38 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1125ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/4" for ::1 at 2015-07-16 17:18:44 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/4"}
+Completed 200 OK in 571ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/21" for ::1 at 2015-07-16 17:18:49 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/21"}
+Completed 200 OK in 728ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/19" for ::1 at 2015-07-16 17:18:50 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/19"}
+Completed 200 OK in 556ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:21:52 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1tet9n" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-c3nbmk" -
+Completed 200 OK in 973ms (Views: 972.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:21:53 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:21:53 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:21:53 +0200
+
+
+Started GET "/assets/application.self-c2dbe689fb3d8b7a37e0b42ee3d6d6f121e781fcd40c61cdd4aa83868440e5a4.js?body=1" for ::1 at 2015-07-16 17:21:53 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:21:53 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:21:53 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:21:53 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:21:53 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1254ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/8" for ::1 at 2015-07-16 17:21:57 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/8"}
+Completed 200 OK in 581ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-16 17:23:17 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc --list --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-5a7l20" -
+Browserify: /Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/node_modules/.bin/browserifyinc  --cachefile=\"/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/browserifyinc-cache.json\" -o "/Users/Xavier/Documents/ironhack/week5_repo/day4/pokemon/tmp/cache/browserify-rails/output20150716-5673-1kjs5g4" -
+Completed 200 OK in 982ms (Views: 980.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:23:18 +0200
+
+
+Started GET "/assets/application.self-8ebc932828d395826961f3ce1d8a9e5ba399ef2b4b74ff7a5e5f2c902d960479.js?body=1" for ::1 at 2015-07-16 17:23:18 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-07-16 17:23:18 +0200
+
+
+Started GET "/assets/pokemon_requests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-16 17:23:18 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-16 17:23:18 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-16 17:23:18 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-16 17:23:18 +0200
+
+
+Started GET "/api/pokedex" for ::1 at 2015-07-16 17:23:18 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokedex"}
+Completed 200 OK in 1161ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/4" for ::1 at 2015-07-16 17:23:22 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/4"}
+Completed 200 OK in 557ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/17" for ::1 at 2015-07-16 17:23:40 +0200
+Processing by PokemonRequestsController#forward as */*
+  Parameters: {"uri"=>"pokemon/17"}
+Completed 200 OK in 511ms (Views: 0.1ms | ActiveRecord: 0.0ms)
