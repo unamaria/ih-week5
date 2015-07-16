@@ -6,7 +6,15 @@ var PokedexComponent = function (container, pokedex) {
 PokedexComponent.prototype.template = function (pokedex) {
  	var names = "";
  	for (var pokemon in pokedex) {
-		names = names +'<li>' + pokedex[pokemon].name + '</li>'
+ 		if(pokedex[pokemon].resource_uri){
+	 		var resource = pokedex[pokemon].resource_uri.substring(15);
+	 		var id = parseInt(resource);
+			names = names + 
+							'<li><a class="js-pokemon" href="javascript:;" ' +
+							'data-id="' + id + '" >' + 
+							pokedex[pokemon].name + 
+							'</a></li>'
+ 		}
  	}	
  	return names
 }

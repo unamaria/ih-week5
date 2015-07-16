@@ -20,5 +20,5 @@
 var Router = require('./app_router.js')
 
 router = new Router()
-router.renderPokemonComponent(20);
-//router.renderPokedexComponent();
+//router.renderPokemonComponent(20);
+router.renderPokedexComponent();

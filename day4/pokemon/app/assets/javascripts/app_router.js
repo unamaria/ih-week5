@@ -3,9 +3,7 @@ var Pokemon = require ("models/pokemon.js")
 var PokedexComponent = require ("components/pokedex.js")
 var Pokedex = require ("models/pokedex.js")
 
-var Router = function () {
-
-}
+var Router = function () {}
 
 Router.prototype.renderPokedexComponent = function () {
 	var pokedex = new Pokedex()
