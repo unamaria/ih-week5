@@ -16,7 +16,6 @@ Spotify.prototype.setInitialListener = function () {
 }
 
 Spotify.prototype.renderTrack = function (response) {
-	console.log("renderTrack")
 	var item = response.tracks.items[0];
 	var song_title = item.name;
 	var artist_name = item.artists[0].name;
@@ -29,4 +28,18 @@ Spotify.prototype.renderTrack = function (response) {
 	$('audio').prop("src", preview_url);
 }
 
+
+Spotify.prototype.playPause = function () {
+		if ($(this).hasClass("disabled")) {
+			$(this).removeClass("disabled");
+			$(this).addClass("playing");
+			$('.js-player').trigger('play');
+		} else if ($(this).hasClass("playing")) {
+			$(this).removeClass("playing");
+			$(this).addClass("disabled");
+			$('.js-player').trigger('pause');
+		};
+}
+
 spotify = new Spotify();
+$('.btn-play').on('click', spotify.playPause);
