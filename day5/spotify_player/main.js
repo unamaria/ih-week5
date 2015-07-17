@@ -15,7 +15,7 @@ $('form').on('submit', function (event) {
 		var preview_url = item.preview_url;
 
 		$('.title').text(song_title);
-		$('.author').text(artist_name);
+		$('.author a').text(artist_name);
 		$('.cover img').prop("src", image_url);
 		$('audio').prop("src", preview_url);
 	}
@@ -42,3 +42,32 @@ function updateProgressBar () {
 }
 
 $('.js-player').on('timeupdate', updateProgressBar);
+
+$('.author a').on('click', function () {
+	var artist = $('.author').text();
+	var url = "https://api.spotify.com/v1/search?type=artist&query=" + artist;
+
+	$.get(url, handleResponse);
+
+	function handleResponse (response) {
+
+		var item = response.artists.items[0];
+		var artist_name = item.name;
+		var genres = item.genres;
+		var image_url = item.images[2].url;
+
+		if (genres) {
+			var html_genres = "<p>";
+			for (var i = 0; i < genres.length; i++) {
+				html_genres = html_genres + genres[i] + " ";
+			};
+			html_genres = html_genres + "</p>"
+		}
+
+		var html = `<h2>${artist_name}</h2>` +
+								`<p>${html_genres}</p>` +
+								`<img src="${image_url}">`;
+
+		$('.artist').append(html);
+	}
+})
