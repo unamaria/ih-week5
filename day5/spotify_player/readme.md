@@ -1,5 +1,5 @@
-# Spotify Player
+# Spotify search
 
-This is the skeleton to start implementing the Spotify Player!
+Search a song in the [Spotify API](https://developer.spotify.com/web-api/search-item/) and listen to its preview.
 
-Happy coding!
+The artist name has to be a link which shows information in a modal.
