@@ -41,5 +41,13 @@ Spotify.prototype.playPause = function () {
 		};
 }
 
+Spotify.prototype.updateProgressBar = function () {
+  var current = $('.js-player').prop('currentTime');
+  $('progress').prop("value", current);
+}
+
+
+
 spotify = new Spotify();
 $('.btn-play').on('click', spotify.playPause);
+$('.js-player').on('timeupdate', spotify.updateProgressBar);
