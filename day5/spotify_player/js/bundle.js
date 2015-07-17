@@ -4,7 +4,6 @@ var Album = function () {
 }
 
 Album.prototype.fetch = function () {
-	console.log("fetching")
 	var artist = $('.author').text();
 	var url = this.url + artist;
 
