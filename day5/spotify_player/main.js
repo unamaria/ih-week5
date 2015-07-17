@@ -57,17 +57,19 @@ $('.author a').on('click', function () {
 		var image_url = item.images[2].url;
 
 		if (genres) {
-			var html_genres = "<p>";
+			var html_genres = "";
 			for (var i = 0; i < genres.length; i++) {
-				html_genres = html_genres + genres[i] + " ";
+				html_genres = html_genres + '<span class="label label-default">' + genres[i] + "</span>";
 			};
-			html_genres = html_genres + "</p>"
 		}
 
-		var html = `<h2>${artist_name}</h2>` +
-								`<p>${html_genres}</p>` +
-								`<img src="${image_url}">`;
+		var html = `<p>${html_genres}</p>` +
+							 `<img src="${image_url}">`;
 
-		$('.artist').append(html);
+
+		$('.modal-header h2').text(artist_name);
+		$('.modal-body').html(html);
+
+		$('.modal').modal();
 	}
 })
