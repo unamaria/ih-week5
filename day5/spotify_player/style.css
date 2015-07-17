@@ -1,3 +1,31 @@
+body {
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	border-radius: 5px;
+}
+
+input#song {
+	border: 1px solid #ccc;
+	width: 200px;
+	padding: 1em;
+}
+
+input[type=submit] {
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding: 1em;
+	background-color: #ccc;
+}
+
 .widget {
   width: 300px;
   margin: 10px auto 0;

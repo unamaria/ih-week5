@@ -36,11 +36,9 @@ $('.btn-play').on('click', function () {
 	};
 })
 
-// Define a function to print the player's current time
-function printTime () {
+function updateProgressBar () {
   var current = $('.js-player').prop('currentTime');
   $('progress').prop("value", current);
 }
 
-// Have printTime be called when the time is updated
-$('.js-player').on('timeupdate', printTime);
+$('.js-player').on('timeupdate', updateProgressBar);
