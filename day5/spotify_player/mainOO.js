@@ -46,8 +46,37 @@ Spotify.prototype.updateProgressBar = function () {
   $('progress').prop("value", current);
 }
 
+Spotify.prototype.fetchAlbum = function () {
+	var artist = $('.author').text();
+	var url = "https://api.spotify.com/v1/search?type=artist&query=" + artist;
+	$.get(url, this.renderAlbum);
+}
+
+Spotify.prototype.renderAlbum = function (response) {
+	var item = response.artists.items[0];
+	var artist_name = item.name;
+	var genres = item.genres;
+	var image_url = item.images[2].url;
+
+	if (genres) {
+		var html_genres = "";
+		for (var i = 0; i < genres.length; i++) {
+			html_genres = html_genres + '<span class="label label-default">' + genres[i] + "</span>";
+		};
+	}
+
+	var html = `<p>${html_genres}</p>` +
+						 `<img src="${image_url}">`;
+
+	$('.modal-header h2').text(artist_name);
+	$('.modal-body').html(html);
+
+	$('.modal').modal();
+}
+
 
 
 spotify = new Spotify();
 $('.btn-play').on('click', spotify.playPause);
 $('.js-player').on('timeupdate', spotify.updateProgressBar);
+$('.author a').on('click', function () { spotify.fetchAlbum(); });
