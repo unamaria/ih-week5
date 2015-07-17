@@ -35,3 +35,12 @@ $('.btn-play').on('click', function () {
 		$('.js-player').trigger('pause');
 	};
 })
+
+// Define a function to print the player's current time
+function printTime () {
+  var current = $('.js-player').prop('currentTime');
+  $('progress').prop("value", current);
+}
+
+// Have printTime be called when the time is updated
+$('.js-player').on('timeupdate', printTime);
