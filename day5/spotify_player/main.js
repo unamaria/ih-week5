@@ -1,10 +1,11 @@
 var Spotify = function () {
 	this.trackUrl = "https://api.spotify.com/v1/search?type=track&query="
 	this.albumUrl = "https://api.spotify.com/v1/search?type=artist&query="
-	this.setInitialListener()
+	this.$playButton = $('.btn-play')
+	this.setInitialListeners()
 }
 
-Spotify.prototype.setInitialListener = function () {
+Spotify.prototype.setInitialListeners = function () {
 	var spotify = this;
 	$('form').on('submit', function (event) {
 		event.preventDefault();
@@ -13,6 +14,9 @@ Spotify.prototype.setInitialListener = function () {
 		var url = "https://api.spotify.com/v1/search?type=track&query=" + searchTerm;
 		$.get(url, spotify.renderTrack);
 	})
+	this.$playButton.on('click', function () { spotify.playPause() });
+	$('.js-player').on('timeupdate', function () { spotify.updateProgressBar() });
+	$('.author a').on('click', function () { spotify.fetchAlbum(); });
 }
 
 Spotify.prototype.renderTrack = function (response) {
@@ -30,15 +34,15 @@ Spotify.prototype.renderTrack = function (response) {
 
 
 Spotify.prototype.playPause = function () {
-		if ($(this).hasClass("disabled")) {
-			$(this).removeClass("disabled");
-			$(this).addClass("playing");
-			$('.js-player').trigger('play');
-		} else if ($(this).hasClass("playing")) {
-			$(this).removeClass("playing");
-			$(this).addClass("disabled");
-			$('.js-player').trigger('pause');
-		};
+	if (this.$playButton.hasClass("disabled")) {
+		this.$playButton.removeClass("disabled");
+		this.$playButton.addClass("playing");
+		$('.js-player').trigger('play');
+	} else if (this.$playButton.hasClass("playing")) {
+		this.$playButton.removeClass("playing");
+		this.$playButton.addClass("disabled");
+		$('.js-player').trigger('pause');
+	};
 }
 
 Spotify.prototype.updateProgressBar = function () {
@@ -77,6 +81,4 @@ Spotify.prototype.renderAlbum = function (response) {
 
 
 spotify = new Spotify();
-$('.btn-play').on('click', spotify.playPause);
-$('.js-player').on('timeupdate', spotify.updateProgressBar);
-$('.author a').on('click', function () { spotify.fetchAlbum(); });
+
