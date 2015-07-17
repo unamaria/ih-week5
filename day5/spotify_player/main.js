@@ -7,14 +7,31 @@ $('form').on('submit', function (event) {
 	$.get(url, handleResponse);
 
 	function handleResponse (response) {
-		console.log(response)
-		var song_title = response.tracks.items[0].name;
-		var artist_name = response.tracks.items[0].artists[0].name;
-		var image_url = response.tracks.items[0].album.images[0].url;
+
+		var item = response.tracks.items[0];
+		var song_title = item.name;
+		var artist_name = item.artists[0].name;
+		var image_url = item.album.images[0].url;
+		var preview_url = item.preview_url;
 
 		$('.title').text(song_title);
 		$('.author').text(artist_name);
 		$('.cover img').prop("src", image_url);
+		$('audio').prop("src", preview_url);
 	}
 
+})
+
+
+$('.btn-play').on('click', function () {
+	
+	if ($(this).hasClass("disabled")) {
+		$(this).removeClass("disabled");
+		$(this).addClass("playing");
+		$('.js-player').trigger('play');
+	} else if ($(this).hasClass("playing")) {
+		$(this).removeClass("playing");
+		$(this).addClass("disabled");
+		$('.js-player').trigger('pause');
+	};
 })
