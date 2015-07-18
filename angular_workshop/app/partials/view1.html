@@ -1,0 +1,20 @@
+<a href="#/view2">Go to Github</a>
+
+<h1>TASKS</h1>
+
+<form ng-submit="addTask(newTask)">
+	<legend>Add a new task</legend>
+	<input type="text" ng-model="newTask.text">
+	<input type="date" ng-model="newTask.date">
+	<input type="submit" value="Add">
+</form>
+
+<h3>Find tasks</h3>
+<input type="searchTerm" ng-model="searchTerm">
+
+<h2>Current tasks</h2>
+<ul>
+	<li ng-repeat="task in tasks | filter:searchTerm | orderBy:'-date'">
+		WHAT: {{task.text}} WHEN: {{task.date}}<a href="javascript:;" ng-click="deleteTask($index)">DELETE</a>
+	</li>
+</ul>

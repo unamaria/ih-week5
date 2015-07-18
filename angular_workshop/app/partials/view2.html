@@ -1,0 +1,19 @@
+<a href="#/view1">Go to Tasks</a>
+
+<h1>Github</h1>
+
+<form ng-submit="fetchData(user)">
+	<input type="text" ng-model="user">
+	<input type="submit" value="Get user repos">
+</form>
+
+<h2>{{name}}</h2>
+<img src="{{avatar_url}}">
+
+<h3 ng-show="repos.length > 0">Repositories</h3>
+<ul>
+	<li ng-repeat="repo in repos">
+		<a href="{{repo.url}}" target="_blank">{{repo.name}}</a>
+	</li>
+</ul>
+
